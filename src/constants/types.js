@@ -1,0 +1,2 @@
+export const ADD_REPAIR_TO_CART = 'repair/ADD_REPAIR_TO_CART';
+export const REMOVE_REPAIR_FROM_CART = 'repair/REMOVE_REPAIR_FROM_CART';

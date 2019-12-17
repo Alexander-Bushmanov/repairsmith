@@ -1,0 +1,1 @@
+export const POPULAR_REPAIRS_CAPACITY = 2;

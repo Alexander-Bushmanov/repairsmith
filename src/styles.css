@@ -1,0 +1,145 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border-radius: 2px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.24);
+    border: 1px solid #dedede;
+    padding: 16px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.Header {
+    box-shadow: 1px 3px 5px #ccc;
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.Header__logo {
+    width: 150px;
+}
+
+.Header__title {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.RepairsContainer {
+    display: flex;
+    flex: 1;
+    align-items: stretch;
+    padding: 0 25px;
+}
+
+.Repairs {
+    flex: 1;
+    margin-right: 25px;
+}
+
+.PopularCartContainer {
+    flex: 1;
+}
+
+.Repairs__resultsTitle {
+    margin: 30px 0 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.h2 {
+    margin: 10px 0;
+}
+
+.Repairs__repairsListContainer {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Repairs__list {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.RepairsList__listItem {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.Repairs .RepairsList__listItem {
+    padding: 0;
+}
+
+.RepairsList__listItem:last-child {
+    border-bottom: none;
+}
+
+.RepairsCart .RepairsList__listItem {
+    padding: 10px 65px 10px 10px;
+    position: relative;
+    transition: background-color ease-in-out .4s;
+}
+
+.RepairsCart .RepairsList__listItem:hover {
+    background-color: rgba(0,0,0,.1);
+}
+
+.RepairsCart .RepairsList__listItem button {
+    position: absolute;
+    right: 5px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.RepairsList__listLink {
+    display: block;
+    font-size: 16px;
+    padding: 20px 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.RepairsCart__title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.RepairsCart__removeBtn {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.PopularRepairs__removeBtn {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #3f82d5;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.RepairsCart__noRepairs {
+    font-style: italic;
+    color: #999;
+    padding: 30px 0;
+    text-align: center;
+}
